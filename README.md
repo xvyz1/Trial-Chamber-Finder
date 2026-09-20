@@ -3,8 +3,8 @@ Finds the spots with the most trial spawners, vaults or ominous vaults inside an
 
 //replacenear 100 !trial_spawner,vault air
 
-Search time grows with the area searched: doubling the search radius takes about 4 times as long. Any ideas/issues,
-DM me xvyz#4060
+Search time grows with the area searched: doubling the search radius takes about 4 times as long. 
+Any ideas/issues, DM me xvyz#4060
 
 # Versions
 | Pick | For |
