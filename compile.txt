@@ -1,0 +1,9 @@
+Linux / macOS (gcc or clang):
+gcc -o TrialChamberFinder -std=gnu99 -O2 -ffp-contract=off ./src/*.c ./src/*/*.c -lm -lpthread
+
+Windows (MinGW-w64):
+windres ./src/TrialChamberFinder.rc -O coff -o TrialChamberFinder.res
+gcc -o TrialChamberFinder.exe -std=gnu99 -O2 -ffp-contract=off -static ./src/*.c ./src/*/*.c TrialChamberFinder.res
+
+Windows (Visual Studio, from a Developer Command Prompt):
+build.bat
