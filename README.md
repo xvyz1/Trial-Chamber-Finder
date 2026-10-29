@@ -1,8 +1,6 @@
 # TrialChamberFinder
 Finds trial chambers with the most spawners, vaults or ominous vaults in an area on Minecraft Java. Vibecoded.
 
-[VIDEO](https://www.youtube.com/watch?v=XXXXXXXXXXX)
-
 //replacenear 100 !trial_spawner,vault air
 
 Search time grows with the area searched: doubling the search radius takes about 4 times as long. Any ideas/issues,
